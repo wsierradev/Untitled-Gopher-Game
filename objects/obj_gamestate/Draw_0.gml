@@ -5,3 +5,4 @@ draw_text(700, 50, "Gopher score  - " + string(round(score)) );
 if global.temp_points >= 1 {
 draw_text(LEFT_GOPHER.x, LEFT_GOPHER.y, round(global.temp_points));
 }
+draw_text(10,10,string(floor(alarm[0]/room_speed)));
