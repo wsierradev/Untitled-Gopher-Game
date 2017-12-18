@@ -5,16 +5,6 @@
     "name": "obj_hole",
     "eventList": [
         {
-            "id": "78737f83-05d7-4eb9-9878-f781be599705",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "87064063-8efa-4760-b1ce-bced2f38795a"
-        },
-        {
             "id": "67f7f9eb-a7f4-47ac-9a3d-a74af2ad8052",
             "modelName": "GMEvent",
             "mvc": "1.0",
