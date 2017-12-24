@@ -9,3 +9,11 @@ if alarm[0] != -1{
 else{
 	draw_text(10,10,0);
 }
+
+with(obj_gopher){
+	with(obj_gopher){
+		if other.tempscore >= 1 && global.canMove{
+		draw_text(other.x,other.y,string(round(other.tempscore)))
+		}
+	}
+};
