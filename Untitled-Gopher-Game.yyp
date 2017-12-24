@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "898876f4-90d9-4f2c-8e09-d7dee2026ae0",
+            "Value": {
+                "id": "d1de6268-95d1-4e2c-b38d-6a84d650fcff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/gopherInput\/gopherInput.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8e37465b-40ef-4b06-be34-70b24fe43d3c",
             "Value": {
                 "id": "70e081a9-f724-4f65-aaf0-6e197a41a866",
@@ -515,7 +534,7 @@
         }
     ],
     "script_order": [
-        
+        "898876f4-90d9-4f2c-8e09-d7dee2026ae0"
     ],
     "tutorial": ""
 }
