@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-LG_ACTIVE = false;
 G_OFFSET = 40;
 H_OFFSET = 22;
+tempscore = 0;
 score = 0
 global.canMove = true
 isActive = false
