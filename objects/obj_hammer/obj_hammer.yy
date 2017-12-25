@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_hammer",
     "eventList": [
-        
+        {
+            "id": "14c153d1-3775-4ea7-ad1f-2a8eaa11809d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4c38434f-bf32-48ba-a5ca-6127d289a6a5"
+        },
+        {
+            "id": "e44e3816-c9e2-49d7-a89f-fd54deac7e8c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4c38434f-bf32-48ba-a5ca-6127d289a6a5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
