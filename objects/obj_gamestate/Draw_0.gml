@@ -5,6 +5,7 @@ with(obj_hammer){
 		draw_text(100, 50, "Hammer score  - " + string(round(other.hammerscore)));
 	}
 }
+
 draw_text(700, 50, "Gopher score  - " + string(round(score)) );
 
 if alarm[0] != -1{
@@ -12,6 +13,13 @@ if alarm[0] != -1{
 }
 else{
 	draw_text(10,10,0);
+}
+
+if score > obj_hammer.hammerscore && !global.canMove{
+	draw_text(450,75,string("Gopher's Win!!"));
+	}
+else if !global.canMove{
+	draw_text(450,75,string("Hammer's Win!!"));
 }
 
 with(obj_gopher){
