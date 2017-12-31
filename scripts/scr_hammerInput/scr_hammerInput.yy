@@ -1,8 +1,8 @@
 {
-    "id": "898876f4-90d9-4f2c-8e09-d7dee2026ae0",
+    "id": "3a896fbb-da3b-4417-99f9-9ed249d178c0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "gopherInput",
+    "name": "scr_hammerInput",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -6,4 +6,4 @@ if cooldown > 0 {
 if timeonscreen > 0 {
 	timeonscreen -= 1
 }
-hammerInput(ord("F"), LEFT_GOPHER)
+scr_hammerInput(ord("F"), LEFT_GOPHER)

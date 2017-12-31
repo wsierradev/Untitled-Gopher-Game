@@ -5,7 +5,7 @@ with(obj_gopher){vspeed = 0;}
 }
 
 for (var i = 0; i < instance_number(obj_gopher); i++) {
-	gopherInput(buttons[i],gophers[i], holes[i])
+	scr_gopherInput(buttons[i],gophers[i], holes[i])
     with (gophers[i])
 	if keyboard_check(buttons[i]) && place_meeting(x,y + G_OFFSET, holes[i]){
 		vspeed = 0;

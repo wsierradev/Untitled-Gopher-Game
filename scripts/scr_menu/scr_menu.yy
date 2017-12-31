@@ -1,8 +1,8 @@
 {
-    "id": "3a896fbb-da3b-4417-99f9-9ed249d178c0",
+    "id": "d885852c-8c86-47fc-a5fc-c73e95509a10",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "hammerInput",
+    "name": "scr_menu",
     "IsCompatibility": false,
     "IsDnD": false
 }

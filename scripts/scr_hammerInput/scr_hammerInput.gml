@@ -9,10 +9,10 @@ if keyboard_check(input) && global.canMove && gopher.isActive && cooldown == 0{
 		obj_hammer.y = gopher.y - offset;
 		if place_meeting(x,y, gopher){
 		gopher.x = gopher.xstart;
-		gopher.y = gopher.ystart + 2;
+		gopher.y = gopher.ystart - 2;
 		hammerscore += gopher.tempscore;
 		gopher.tempscore = 0;
-		cooldown = 30;
+		cooldown = 35;
 		timeonscreen = 30;
 		}
 	}

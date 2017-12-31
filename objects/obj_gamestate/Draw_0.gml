@@ -1,18 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 with(obj_hammer){
 	with(obj_hammer){
+		draw_set_halign(fa_left)
 		draw_text(100, 50, "Hammer score  - " + string(round(other.hammerscore)));
 	}
 }
 
 draw_text(700, 50, "Gopher score  - " + string(round(score)) );
 
+
 if alarm[0] != -1{
-	draw_text(10,10,string(floor(alarm[0]/room_speed)));
+	draw_text(view_xview + view_wview * 0.5,10,string(floor(alarm[0]/room_speed)));
 }
 else{
-	draw_text(10,10,0);
+	draw_text(view_xview + view_wview * 0.5,10,0);
 }
 
 if score > obj_hammer.hammerscore && !global.canMove{
