@@ -3,7 +3,7 @@
 if cooldown > 0 {
 	cooldown -= 1
 }
-if timeonscreen > 0 {
-	timeonscreen -= 1
+
+for (var i = 0; i < instance_number(obj_gopher); i++) {
+scr_hammerInput(h_buttons[i],obj_gopher.gophers[i])
 }
-scr_hammerInput(ord("F"), LEFT_GOPHER)

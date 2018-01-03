@@ -4,12 +4,12 @@ hole = argument2
 
   if keyboard_check(input) && global.canMove{
 	with(gopher){
-		vspeed = -2;
+		vspeed = -4;
 		isActive = true;}
 	}
 	else if keyboard_check_released(input){
 		with(gopher){
-			if global.canMove{vspeed = 2;}
+			if global.canMove{vspeed = 4;}
 		}
 	}
 	else if gopher.bbox_top > hole.bbox_bottom + H_OFFSET{

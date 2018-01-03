@@ -7,7 +7,6 @@ if !gameStart {
 draw_text(view_xview + view_wview * 0.40
 ,200, "Untitled Gopher Game")
 
-var m;
 for (m = 0; m < array_length_1d(menu); m++){
 	draw_text(x + space, y + (m * space), string(menu[m]))
 }
@@ -21,7 +20,6 @@ else if gameStartTimer > 20{
 	draw_text(view_xview + view_wview * 0.45,400,"get ready...")
 }
 else{
-
 	draw_text(view_xview + view_wview * 0.45,400,"GOOO!!!!")
 }
 

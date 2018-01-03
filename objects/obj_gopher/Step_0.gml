@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if !global.canMove{
 with(obj_gopher){vspeed = 0;}
 }
