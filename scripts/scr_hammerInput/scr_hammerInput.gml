@@ -12,6 +12,8 @@ if keyboard_check(input) && global.canMove && gopher.isActive && cooldown == 0{
 		gopher.y = gopher.ystart - 4;
 		hammerscore += gopher.tempscore;
 		gopher.tempscore = 0;
+		gopher.cooldown = 20;
+		gopher.isActive = false;
 		cooldown = 20;
 		}
 	}

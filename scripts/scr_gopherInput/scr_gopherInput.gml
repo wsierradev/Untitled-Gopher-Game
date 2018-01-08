@@ -2,11 +2,23 @@ input = argument0
 gopher = argument1
 hole = argument2
 
-  if keyboard_check(input) && global.canMove{
+if gopher.cooldown != 0{
+	with(gopher){
+	vspeed = 0;
+	isActive = false;
+	visible = false;
+	}
+}
+
+
+
+if keyboard_check_pressed(input) && global.canMove{
 	with(gopher){
 		vspeed = -4;
-		isActive = true;}
+		isActive = true;
+		visible = true;}
 	}
+
 	else if keyboard_check_released(input){
 		with(gopher){
 			if global.canMove{vspeed = 4;}
